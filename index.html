@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script type= "text/javascript" src= "./js/script.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Alura</title>
+</head>
+    <body>
+        <div class = "container">
+            <div class="logo">
+                <img class= "logoImg" src="./assets/logo.svg" alt="Logo Alura">
+            </div>
+            
+            <div class="contenedor-texto">
+                <textarea class="text-input" id="inputTexto" placeholder="Ingrese su texto aquí."></textarea>
+                
+            </div>
+            <div class="right">
+                <img src="./assets/muñeco.svg" id="imgDer" alt="Muñeco">
+                
+                    <p id="texto"> Ningun mensaje fue encontrado</p>
+                    <p id="texto1">Ingresa el texto que desees encriptar o desencriptar.</p>
+                    <textarea id="texto2" name="name"></textarea>
+                    <button id = "copiar" type= "button" name="button" onclick= "copiar()">Copiar</button>
+            </div>
+            <div class="left-button">
+                <p>
+                    <object data="./assets/icono.svg"></object>
+                    Solo letras minúsculas y sin acentos.
+                </p>
+                <button type="button" id="btn-encriptar" onclick= "encriptar()">Encriptar</button>
+                <button type="button" id="btn-desencriptar" onclick= "desencriptar()">Desencriptar</button>
+            </div>
+            
+        </div>
+        <footer>
+            <div class="borde">
+                <p class="dar-stilo">
+                    &copy Copyright Andy Lopez 2022
+                </p>
+            </div>
+            
+        </footer>
+    </body>
+</html>
